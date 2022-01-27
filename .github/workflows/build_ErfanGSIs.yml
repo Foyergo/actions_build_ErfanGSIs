@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.2.20/miui_NI6_20.2.20_0bbc2517ef_9.0.zip
+  ROM_URL: https://hugeota.d.miui.com/20.6.18/miui_MI6_20.6.18_3f5b90d469_9.0.zip
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
