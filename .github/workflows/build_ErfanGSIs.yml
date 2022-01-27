@@ -1,4 +1,5 @@
 name: build_ErfanGSIs
+
 on:
 #  release:
 #    types: [published]
@@ -13,6 +14,7 @@ on:
     types: [started]
 
 env:
+
   ROM_URL: https://hugeota.d.miui.com/20.6.18/miui_MI6_20.6.18_3f5b90d469_9.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
@@ -62,4 +64,3 @@ jobs:
               ./transfer gof final/GSI.zip
          
             
-       
